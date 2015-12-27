@@ -40,7 +40,7 @@ const (
 	MIN_FILE_SIZE = 1 // bytes
 	// Max file size is memcache limit (1MB) minus key size minus overhead:
 	MAX_FILE_SIZE     = 999000 // bytes
-	IMAGE_TYPES       = "image/(gif|p?jpeg|(x-)?png)"
+	IMAGE_TYPES       = "image/(gif|p?jpeg|(x-)?png|doc?x|xls?x|ppt?x|pdf)"
 	ACCEPT_FILE_TYPES = IMAGE_TYPES
 	THUMB_MAX_WIDTH   = 80
 	THUMB_MAX_HEIGHT  = 80
